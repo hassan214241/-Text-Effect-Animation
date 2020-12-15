@@ -3,11 +3,12 @@
 
 div {
     height: 100vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    font-family: 'Langar', cursive;
+
   
 }
 
@@ -18,16 +19,15 @@ ul > li{
     font-size: 130px;
     text-transform: uppercase;
    
-    transition:all 1s liner;
+    transition:all 1s linear;
     cursor: pointer;
    
 }
 
- ul >:hover .a1 {
-  transform: translateY(-150) ;
-
-rotate: (20deg) ;
-     filter: blur(50px);
+ ul:hover li {
+    transform: translateY(-150);
+    rotate: (20dg);
+     filter: blur(10px);
      opacity: 0;
    
 }
